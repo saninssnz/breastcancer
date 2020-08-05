@@ -1,0 +1,73 @@
+STATISTICAL PARAMETERS
+----------------------
+
+Parameters are the unknown charecteristics in the data like mean and median. Sample statistics describes the charecteristics of a fraction of data which is taken as sample. The sample mean and median is known and fixed.
+
+
+GAUSSIAN DISTRIBUTION
+---------------------
+
+Gaussian distribution, also known as normal distribution is a probability distribution which is symmetric about mean.showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution appears as bell curve. This distribution describes how the values of a variable are distributed. It is a symmetric distribution where most of the observations cluster around the central peak and the probabilities for values further away from the mean taper off equally in both directions. Extreme values in both tails of the distribution are similarly unlikely.As with any probability distribution, the parameters for the normal distribution define its shape and probabilities entirely. It has two parameters, mean and standard deviation. Mean is the central tendency of the distribution. It defines the location of the peak for normal distributions. Standard deviation measure of variability. It defines the width of the normal distribution. It determines how far away from the mean the values tend to fall.
+
+
+BINOMIAL DISTRIBUTION
+---------------------
+
+The binomial distribution is a probability distribution that summarizes that a value will take one of two independent values under a given set of parameters or assumptions.The underlying assumptions of this distribution are that there is only one outcome for each trial, that each trial has the same probability of success. And each trial is mutually exclusive or independent of each other. It is a common discrete distribution used in statistics, as opposed to a continuous distribution, such as the normal distribution. This distribution is often used in social science statistics as a building block for models for dichotomous outcome variables, like whether which party will win an upcoming election or whether a person will die within a specified period of time, etc. 
+The mean of the binomial distribution is np, and the variance of the binomial distribution is np (1 − p). When p = 0.5, the distribution is symmetric around the mean. When p > 0.5, the distribution is skewed to the left. When p < 0.5, the distribution is skewed to the right.
+
+
+GAUSSIAN DISTRIBUTION AND BINOMIAL DISTRIBUTION (COMPARISSON)
+-------------------------------------------------------------
+
+Normal distributions are more common in statistics than binomial distributions most of the time.
+
+Normal distributions can be described by their mean and standard deviation. The mean determines where the center of the distribution is located. The standard deviation determines the shape of the distribution.
+
+Unlike binomial distributions, a normal distribution is based on the values of a dataset. An example of a normal distribution is for the heights of people in a country.
+
+Unlike normal distributions, binomial distributions tell us the results of only two possible outcomes: success or failure. An example of this is flipping a coin, which can only result in heads or tails.
+
+
+LOGISTIC REGRESSION
+-------------------
+
+Logistic regression is a supervised learning classification algorithm which is used to predict the probability of a target variable.
+
+It is used for predicting the categorical dependent variable using a given set of independent variables.
+
+Logistic regression predicts the output of a categorical dependent variable. Therefore the outcome must be a categorical or discrete value. It can be either Yes or No, 0 or 1, true or False, etc. but it gives the probabilistic values instead of giving the exact values.
+
+Logistic regression is used for solving the classification problems. In Logistic regression, instead of fitting a regression line, we fit an "S" shaped logistic function, which predicts two maximum values (0 or 1).
+
+Logistic Regression has the ability to provide probabilities and classify new data using continuous and discrete datasets.
+
+
+DECISION TREE CLASSIFIER
+------------------------
+
+Step 1 : Begin the tree with the root node, says R, which contains the complete dataset. 
+
+Step 2 : Find the best attribute in the dataset using Attribute Selection Measure.
+
+Step 3 : Divide the R into subsets that contains possible values for the best attributes.
+
+Step 4 : Generate the decision tree node, which contains the best attribute.
+
+Step 5 : Recursively make new decision trees using the subsets of the dataset created in Step 3. 
+
+         Continue this process until a stage is reached where you cannot further classify the nodes and called the          final node as a leaf node.
+         
+
+RANDOM FOREST CLASSIFIER
+------------------------
+
+Step 1 : Randomly select “K” features from total “m” features where k << m.
+
+Step 2 : Among the “K” features, calculate the node “d” using the best split point.
+
+Step 3 : Split the node into daughter nodes using the best split.
+
+Step 4 : Repeat the 1 to 3 steps until “l” number of nodes has been reached.
+
+Step 5 : Build forest by repeating steps 1 to 5 for “n” number times to create “n” number of trees.
