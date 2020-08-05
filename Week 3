@@ -1,13 +1,14 @@
 STATISTICAL PARAMETERS
 ----------------------
 
-Parameters are the unknown charecteristics in the data like mean and median. Sample statistics describes the charecteristics of a fraction of data which is taken as sample. The sample mean and median is known and fixed.
+Parameters are the unknown charecteristics in the data like mean and median. Sample statistics describes the charecteristics of a fraction of data which is taken as sample. 
+The sample mean and median is known and fixed.
 
 
 GAUSSIAN DISTRIBUTION
 ---------------------
 
-Gaussian distribution, also known as normal distribution is a probability distribution which is symmetric about mean.showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution appears as bell curve. This distribution describes how the values of a variable are distributed. It is a symmetric distribution where most of the observations cluster around the central peak and the probabilities for values further away from the mean taper off equally in both directions. Extreme values in both tails of the distribution are similarly unlikely.As with any probability distribution, the parameters for the normal distribution define its shape and probabilities entirely. It has two parameters, mean and standard deviation. Mean is the central tendency of the distribution. It defines the location of the peak for normal distributions. Standard deviation measure of variability. It defines the width of the normal distribution. It determines how far away from the mean the values tend to fall.
+Gaussian distribution, also known as normal distribution is a probability distribution which is symmetric about mean showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution appears as bell curve. This distribution describes how the values of a variable are distributed. It is a symmetric distribution where most of the observations cluster around the central peak and the probabilities for values further away from the mean taper off equally in both directions. Extreme values in both tails of the distribution are similarly unlikely.As with any probability distribution, the parameters for the normal distribution define its shape and probabilities entirely. It has two parameters, mean and standard deviation. Mean is the central tendency of the distribution. It defines the location of the peak for normal distributions. Standard deviation measure of variability. It defines the width of the normal distribution. It determines how far away from the mean the values tend to fall.
 
 
 BINOMIAL DISTRIBUTION
